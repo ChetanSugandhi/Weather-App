@@ -1,0 +1,42 @@
+.InfoBox {
+    position: relative;
+    color: white;
+    height: 100vh; /* Full viewport height */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay for text readability */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.infoContainer {
+    background: rgba(0, 0, 0, 0.7); /* Slightly darker background for content */
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 600px; /* Adjust width as needed */
+}
+
+.cityHeader {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.weatherDetails p {
+    margin: 0.5rem 0;
+    font-size: 1.1rem;
+}
